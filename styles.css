@@ -92,7 +92,14 @@ header nav {
   text-align: center;
   margin: 1rem auto;
 }
+.resume-link {
+  color: white;
+  font-size: 1.2rem;
+}
 
+.resume-link:hover {
+  color: darkturquoise;
+}
 footer {
   margin-top: 5rem;
   display: flex;
@@ -128,6 +135,10 @@ footer li {
   justify-content: center;
   align-items: center;
 }
+
+.group a:hover {
+  color: darkturquoise;
+}
 .Portfolio-des {
   padding: 0 1rem;
 }
@@ -140,14 +151,16 @@ footer li {
   padding: 1rem;
   color: white;
   margin: 1rem 35rem;
-
 }
 
-.contact-list li{
+.contact-list li {
   padding: 1rem 0;
- 
 }
-.contact-list a{
+.contact-list a {
   color: white;
   text-decoration: none;
+}
+
+.contact-list a:hover {
+  color: darkturquoise;
 }
