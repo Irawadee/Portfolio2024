@@ -1,0 +1,153 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #221f1f;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #221f1f;
+  height: 5rem;
+}
+
+header img {
+  width: 3rem;
+  height: 3rem;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  margin: 1rem 3rem;
+}
+
+#site-name {
+  font-family: inherit;
+  margin: 1.5rem 3rem;
+}
+
+#site-name a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+#preview {
+  display: flex;
+}
+.preview-context {
+  width: 30rem;
+  height: 30rem;
+  margin: 10rem 4rem;
+  padding: 3rem;
+}
+
+.preview-context p {
+  font-size: 1.5rem;
+  color: white;
+  text-align: right;
+}
+.preview-context h1 {
+  font-size: 3rem;
+  color: #a6bbcc;
+  text-align: right;
+}
+
+.preview-photo {
+  display: flex;
+  align-items: start;
+  margin-top: 8rem;
+}
+.preview-photo img {
+  width: 650px;
+  height: 500px;
+  border: 1px ridge transparent;
+  box-shadow: 2px 4px 5px rgb(68, 67, 67);
+  border-radius: 15px;
+}
+
+.topic-section h2 {
+  font-size: 2.5rem;
+  color: #a6bbcc;
+  padding: 2rem;
+  margin: 0 20rem;
+}
+.topic-section hr {
+  color: #a6bbcc;
+  width: 60%;
+}
+
+#MainTopic {
+  display: flex;
+  flex-direction: column;
+}
+.des p {
+  width: 50%;
+  color: white;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+footer {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+footer img {
+  width: 3rem;
+  height: 3rem;
+}
+
+footer ul {
+  display: flex;
+  padding: 0;
+  margin-right: 40px;
+}
+footer li {
+  list-style: none;
+  margin: 0 0.5rem;
+}
+
+.Port-Showcase {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  color: white;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Portfolio-des {
+  padding: 0 1rem;
+}
+.Portfolio-des a {
+  color: white;
+}
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  color: white;
+  margin: 1rem 35rem;
+
+}
+
+.contact-list li{
+  padding: 1rem 0;
+ 
+}
+.contact-list a{
+  color: white;
+  text-decoration: none;
+}

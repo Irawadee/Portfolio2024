@@ -1,0 +1,64 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #221f1f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #221f1f;
+  height: 5rem;
+}
+
+header img {
+  width: 3rem;
+  height: 3rem;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  margin: 1rem 3rem;
+}
+
+#site-name {
+  font-family: inherit;
+  margin: 1.5rem 3rem;
+}
+
+#site-name a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+footer {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  margin-top: auto;
+}
+
+footer img {
+  width: 3rem;
+  height: 3rem;
+}
+
+footer ul {
+  display: flex;
+  padding: 0;
+  margin-right: 40px;
+}
+footer li {
+  list-style: none;
+  margin: 0 0.5rem;
+}

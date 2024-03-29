@@ -1,0 +1,27 @@
+.archive {
+  margin: 5rem;
+  text-align: left;
+}
+.archive h2 {
+  font-size: 3rem;
+  color: #a6bbcc;
+}
+
+.archive ul {
+  padding: 3rem;
+}
+
+.archive li {
+  margin: 2rem 0;
+  color: white;
+}
+
+.archive a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.archive a:hover {
+  color: darkturquoise;
+}
